@@ -33,7 +33,6 @@ public class Task {
     private String priority;
 
     @NotNull(message = "Deadline is required")
-    @DateTimeFormat(pattern = "dd/MM/yyyy") //Specify UK date format
     @Column(name="DEADLINE")
     private LocalDate deadline;
 
